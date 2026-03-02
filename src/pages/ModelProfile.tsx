@@ -969,7 +969,7 @@ const cityModels: Record<string, Record<string, ModelData>> = {
         'https://pbs.twimg.com/media/HCYQWX5a8AAYXF1?format=jpg&name=4096x4096',
         'https://pbs.twimg.com/media/HCYQWX3bkAARM7O?format=jpg&name=4096x4096',
         'https://pbs.twimg.com/media/HCYQWX5bsAAWpEp?format=jpg&name=4096x4096',
-        'https://pbs.twimg.com/media/HCYQWX8bcAAV8rW?format=jpg&name=4096x4096
+        'https://pbs.twimg.com/media/HCYQWX8bcAAV8rW?format=jpg&name=4096x4096'
       ]
     },
     'Ánh Nguyệt': {

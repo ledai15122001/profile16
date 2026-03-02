@@ -1411,7 +1411,7 @@ export default function ModelProfile() {
             style={{ transform: `translateX(-${currentVideoSlide * 100}%)` }}
           >
             {[
-              { label: 'Video chính', duration: '2:34', videoUrl: 'https://res.cloudinary.com/dechikoa8/video/upload/v1772443477/fbec8bc7a198525909d0aa6a0f27c229_q7gm4q.mp4' },
+              { label: 'Video chính', duration: '2:34', videoUrl: 'https://res.cloudinary.com/dechikoa8/video/upload/vc_h264/v1772443477/fbec8bc7a198525909d0aa6a0f27c229_q7gm4q.mp4' },
               { label: 'Cuộc sống hàng ngày', duration: '1:18' },
               { label: 'Buổi tối lãng mạn', duration: '0:58' },
               { label: 'Vlog du lịch', duration: '3:12' },

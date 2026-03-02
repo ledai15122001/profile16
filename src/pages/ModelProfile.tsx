@@ -437,10 +437,10 @@ const cityModels: Record<string, Record<string, ModelData>> = {
       measurements: '87 – 62 – 90',
       hours: '7PM – 6AM',
       gallery: [
-        'https://pbs.twimg.com/media/HCXQeYlaAAAZlRl?format=jpg&name=large',
-        'https://pbs.twimg.com/media/HCLANcNaAAEeOkJ?format=jpg&name=large',
-        'https://pbs.twimg.com/media/HCLANcPaEAAFUu4?format=jpg&name=large',
-        'https://pbs.twimg.com/media/HCLANcQbMAECt8L?format=jpg&name=medium'
+        'https://pbs.twimg.com/media/HCXeaKkbYAArNz6?format=jpg&name=4096x4096',
+        'https://pbs.twimg.com/media/HCXeaLmbQAAjSVC?format=jpg&name=4096x4096',
+        'https://pbs.twimg.com/media/HCXeaKkaoAAkdMv?format=jpg&name=4096x4096',
+        'https://pbs.twimg.com/media/HCXeaKkaIAAhRMj?format=jpg&name=large'
       ]
     },
     'Vân Anh': {

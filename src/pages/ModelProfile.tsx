@@ -1215,7 +1215,7 @@ export default function ModelProfile() {
     setCurrentSlide(index);
   };
 
-  const totalVideoSlides = 5;
+  const totalVideoSlides = 4;
 
   const handlePrevVideoSlide = () => {
     setCurrentVideoSlide((prev) => (prev - 1 + totalVideoSlides) % totalVideoSlides);

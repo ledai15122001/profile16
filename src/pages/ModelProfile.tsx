@@ -799,9 +799,9 @@ const cityModels: Record<string, Record<string, ModelData>> = {
       hours: '7PM – 5AM',
       gallery: [
         'https://pbs.twimg.com/media/HCYOQW6bYAAm6og?format=jpg&name=4096x4096',
-        'https://pbs.twimg.com/media/HCK99-YaoAAn-jQ?format=jpg&name=large',
-        'https://pbs.twimg.com/media/HCK99-baAAEOcgq?format=jpg&name=large',
-        'https://pbs.twimg.com/media/HCK99-baIAE1QW1?format=jpg&name=large'
+        'https://pbs.twimg.com/media/HCYOQW_boAA9EH6?format=jpg&name=4096x4096',
+        'https://pbs.twimg.com/media/HCYOQXBbMAAtECZ?format=jpg&name=4096x4096',
+        'https://pbs.twimg.com/media/HCYOQXBbAAA9_06?format=jpg&name=4096x4096'
       ]
     },
     'Hương Giang': {

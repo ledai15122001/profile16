@@ -55,7 +55,13 @@ const cityModels: Record<string, Record<string, ModelData>> = {
       tags: ['Tính cảm', 'Lắng nghe', 'Đi ăn tối', 'Sự kiện'],
       vip: true,
       measurements: '85 – 60 – 88',
-      hours: '7PM – 6AM'
+      hours: '7PM – 6AM',
+      gallery: [
+        'https://pbs.twimg.com/media/HCK-MlwaYAAi1lD?format=jpg&name=large',
+        'https://pbs.twimg.com/media/HCK99-YaoAAn-jQ?format=jpg&name=large',
+        'https://pbs.twimg.com/media/HCK99-baAAEOcgq?format=jpg&name=large',
+        'https://pbs.twimg.com/media/HCK99-baIAE1QW1?format=jpg&name=large'
+      ]
     },
     'Hà Mỹ': {
       name: 'Hà Mỹ',
@@ -70,7 +76,13 @@ const cityModels: Record<string, Record<string, ModelData>> = {
       tags: ['Hài hước', 'Dễ thương', 'Năng động'],
       vip: true,
       measurements: '83 – 58 – 86',
-      hours: '6PM – 4AM'
+      hours: '6PM – 4AM',
+      gallery: [
+        'https://pbs.twimg.com/media/HCK-V3VakAA1w36?format=jpg&name=medium',
+        'https://pbs.twimg.com/media/HCK99-YaoAAn-jQ?format=jpg&name=large',
+        'https://pbs.twimg.com/media/HCK99-baAAEOcgq?format=jpg&name=large',
+        'https://pbs.twimg.com/media/HCK99-baIAE1QW1?format=jpg&name=large'
+      ]
     },
     'Khánh Huyền': {
       name: 'Khánh Huyền',
@@ -85,7 +97,13 @@ const cityModels: Record<string, Record<string, ModelData>> = {
       tags: ['Qua đêm', 'Lãng mạn'],
       vip: false,
       measurements: '84 – 59 – 87',
-      hours: '7PM – 6AM'
+      hours: '7PM – 6AM',
+      gallery: [
+        'https://pbs.twimg.com/media/HCK-cgjacAAaftq?format=jpg&name=large',
+        'https://pbs.twimg.com/media/HCK99-YaoAAn-jQ?format=jpg&name=large',
+        'https://pbs.twimg.com/media/HCK99-baAAEOcgq?format=jpg&name=large',
+        'https://pbs.twimg.com/media/HCK99-baIAE1QW1?format=jpg&name=large'
+      ]
     },
     'Mỹ Linh': {
       name: 'Mỹ Linh',
@@ -100,7 +118,13 @@ const cityModels: Record<string, Record<string, ModelData>> = {
       tags: ['Vui vẻ', 'Năng động', 'Thân thiện'],
       vip: true,
       measurements: '86 – 61 – 89',
-      hours: '6PM – 5AM'
+      hours: '6PM – 5AM',
+      gallery: [
+        'https://pbs.twimg.com/media/HCK-kxHbAAEsvWD?format=jpg&name=medium',
+        'https://pbs.twimg.com/media/HCK99-YaoAAn-jQ?format=jpg&name=large',
+        'https://pbs.twimg.com/media/HCK99-baAAEOcgq?format=jpg&name=large',
+        'https://pbs.twimg.com/media/HCK99-baIAE1QW1?format=jpg&name=large'
+      ]
     },
     'Phương Anh': {
       name: 'Phương Anh',
@@ -115,7 +139,13 @@ const cityModels: Record<string, Record<string, ModelData>> = {
       tags: ['Chiều chuộng', 'Dễ thương'],
       vip: false,
       measurements: '80 – 56 – 83',
-      hours: '8PM – 4AM'
+      hours: '8PM – 4AM',
+      gallery: [
+        'https://pbs.twimg.com/media/HCK-u7QaAAAnu2v?format=jpg&name=medium',
+        'https://pbs.twimg.com/media/HCK99-YaoAAn-jQ?format=jpg&name=large',
+        'https://pbs.twimg.com/media/HCK99-baAAEOcgq?format=jpg&name=large',
+        'https://pbs.twimg.com/media/HCK99-baIAE1QW1?format=jpg&name=large'
+      ]
     },
     'Ngọc Trinh': {
       name: 'Ngọc Trinh',
@@ -130,7 +160,55 @@ const cityModels: Record<string, Record<string, ModelData>> = {
       tags: ['Nhiệt tình', 'Chu đáo', 'Sự kiện'],
       vip: true,
       measurements: '85 – 60 – 88',
-      hours: '7PM – 5AM'
+      hours: '7PM – 5AM',
+      gallery: [
+        'https://pbs.twimg.com/media/HCK_Ac_boAAcWPI?format=jpg&name=medium',
+        'https://pbs.twimg.com/media/HCK99-YaoAAn-jQ?format=jpg&name=large',
+        'https://pbs.twimg.com/media/HCK99-baAAEOcgq?format=jpg&name=large',
+        'https://pbs.twimg.com/media/HCK99-baIAE1QW1?format=jpg&name=large'
+      ]
+    },
+    'Bảo Châu': {
+      name: 'Bảo Châu',
+      age: 21,
+      city: 'Hồ Chí Minh',
+      district: 'Quận 5, TP.HCM',
+      price: 14,
+      height: 166,
+      weight: 53,
+      views: 138,
+      bio: '"Em sang trọng, lịch sự và biết cách tạo ấn tượng sâu sắc."',
+      tags: ['Sang trọng', 'Lịch sự'],
+      vip: false,
+      measurements: '86 – 61 – 89',
+      hours: '7PM – 5AM',
+      gallery: [
+        'https://pbs.twimg.com/media/HCK_oIuagAE2wi6?format=jpg&name=large',
+        'https://pbs.twimg.com/media/HCK99-YaoAAn-jQ?format=jpg&name=large',
+        'https://pbs.twimg.com/media/HCK99-baAAEOcgq?format=jpg&name=large',
+        'https://pbs.twimg.com/media/HCK99-baIAE1QW1?format=jpg&name=large'
+      ]
+    },
+    'Lan Anh': {
+      name: 'Lan Anh',
+      age: 23,
+      city: 'Hồ Chí Minh',
+      district: 'Gò Vấp, TP.HCM',
+      price: 10,
+      height: 158,
+      weight: 47,
+      views: 132,
+      bio: '"Em thân thiện, dễ mến và luôn mang lại niềm vui cho mọi người."',
+      tags: ['Thân thiện'],
+      vip: false,
+      measurements: '82 – 57 – 85',
+      hours: '6PM – 4AM',
+      gallery: [
+        'https://pbs.twimg.com/media/HCK_4jkbQAA_EI8?format=jpg&name=large',
+        'https://pbs.twimg.com/media/HCK99-YaoAAn-jQ?format=jpg&name=large',
+        'https://pbs.twimg.com/media/HCK99-baAAEOcgq?format=jpg&name=large',
+        'https://pbs.twimg.com/media/HCK99-baIAE1QW1?format=jpg&name=large'
+      ]
     }
   },
   hn: {
@@ -147,7 +225,13 @@ const cityModels: Record<string, Record<string, ModelData>> = {
       tags: ['Dịu dàng', 'Lắng nghe', 'Lãng mạn', 'Du lịch'],
       vip: true,
       measurements: '86 – 61 – 89',
-      hours: '7PM – 5AM'
+      hours: '7PM – 5AM',
+      gallery: [
+        'https://pbs.twimg.com/media/HCXQeYlaAAAZlRl?format=jpg&name=large',
+        'https://pbs.twimg.com/media/HCK99-YaoAAn-jQ?format=jpg&name=large',
+        'https://pbs.twimg.com/media/HCK99-baAAEOcgq?format=jpg&name=large',
+        'https://pbs.twimg.com/media/HCK99-baIAE1QW1?format=jpg&name=large'
+      ]
     },
     'Diệu Nhi': {
       name: 'Diệu Nhi',
@@ -162,7 +246,13 @@ const cityModels: Record<string, Record<string, ModelData>> = {
       tags: ['Nhiệt tình', 'Vui vẻ', 'Năng động', 'Sự kiện'],
       vip: true,
       measurements: '84 – 59 – 87',
-      hours: '6PM – 5AM'
+      hours: '6PM – 5AM',
+      gallery: [
+        'https://pbs.twimg.com/media/HCYKfzqawAEXa3Z?format=jpg&name=4096x4096',
+        'https://pbs.twimg.com/media/HCK99-YaoAAn-jQ?format=jpg&name=large',
+        'https://pbs.twimg.com/media/HCK99-baAAEOcgq?format=jpg&name=large',
+        'https://pbs.twimg.com/media/HCK99-baIAE1QW1?format=jpg&name=large'
+      ]
     },
     'Ngọc Thảo': {
       name: 'Ngọc Thảo',
@@ -177,7 +267,13 @@ const cityModels: Record<string, Record<string, ModelData>> = {
       tags: ['Chiều chuộng', 'Dễ thương', 'Trẻ trung'],
       vip: true,
       measurements: '82 – 58 – 85',
-      hours: '8PM – 6AM'
+      hours: '8PM – 6AM',
+      gallery: [
+        'https://pbs.twimg.com/media/HCXQ8pKb0AAjRnD?format=jpg&name=large',
+        'https://pbs.twimg.com/media/HCK99-YaoAAn-jQ?format=jpg&name=large',
+        'https://pbs.twimg.com/media/HCK99-baAAEOcgq?format=jpg&name=large',
+        'https://pbs.twimg.com/media/HCK99-baIAE1QW1?format=jpg&name=large'
+      ]
     }
   },
   dn: {
@@ -194,7 +290,13 @@ const cityModels: Record<string, Record<string, ModelData>> = {
       tags: ['Vui vẻ', 'Năng động', 'Du lịch', 'Ngoài trời'],
       vip: true,
       measurements: '85 – 60 – 88',
-      hours: '7PM – 5AM'
+      hours: '7PM – 5AM',
+      gallery: [
+        'https://pbs.twimg.com/media/HCYLoKGaUAAT6A7?format=jpg&name=large',
+        'https://pbs.twimg.com/media/HCK99-YaoAAn-jQ?format=jpg&name=large',
+        'https://pbs.twimg.com/media/HCK99-baAAEOcgq?format=jpg&name=large',
+        'https://pbs.twimg.com/media/HCK99-baIAE1QW1?format=jpg&name=large'
+      ]
     },
     'Cẩm Ly': {
       name: 'Cẩm Ly',
@@ -209,7 +311,13 @@ const cityModels: Record<string, Record<string, ModelData>> = {
       tags: ['Chiều chuộng', 'Lãng mạn', 'Tình cảm'],
       vip: true,
       measurements: '86 – 61 – 89',
-      hours: '6PM – 4AM'
+      hours: '6PM – 4AM',
+      gallery: [
+        'https://pbs.twimg.com/media/HCYL8goakAEdzSB?format=jpg&name=4096x4096',
+        'https://pbs.twimg.com/media/HCK99-YaoAAn-jQ?format=jpg&name=large',
+        'https://pbs.twimg.com/media/HCK99-baAAEOcgq?format=jpg&name=large',
+        'https://pbs.twimg.com/media/HCK99-baIAE1QW1?format=jpg&name=large'
+      ]
     },
     'Thiên Kim': {
       name: 'Thiên Kim',
@@ -224,7 +332,13 @@ const cityModels: Record<string, Record<string, ModelData>> = {
       tags: ['Sang trọng', 'Tinh tế', 'Lãng mạn'],
       vip: true,
       measurements: '87 – 62 – 90',
-      hours: '8PM – 5AM'
+      hours: '8PM – 5AM',
+      gallery: [
+        'https://pbs.twimg.com/media/HCYMKKcaIAAF6LI?format=jpg&name=4096x4096',
+        'https://pbs.twimg.com/media/HCK99-YaoAAn-jQ?format=jpg&name=large',
+        'https://pbs.twimg.com/media/HCK99-baAAEOcgq?format=jpg&name=large',
+        'https://pbs.twimg.com/media/HCK99-baIAE1QW1?format=jpg&name=large'
+      ]
     }
   },
   nt: {
@@ -241,7 +355,13 @@ const cityModels: Record<string, Record<string, ModelData>> = {
       tags: ['Lãng mạn', 'Chiều chuộng', 'Tình cảm', 'Du lịch'],
       vip: true,
       measurements: '85 – 60 – 88',
-      hours: '7PM – 5AM'
+      hours: '7PM – 5AM',
+      gallery: [
+        'https://pbs.twimg.com/media/HCYOQW6bYAAm6og?format=jpg&name=4096x4096',
+        'https://pbs.twimg.com/media/HCK99-YaoAAn-jQ?format=jpg&name=large',
+        'https://pbs.twimg.com/media/HCK99-baAAEOcgq?format=jpg&name=large',
+        'https://pbs.twimg.com/media/HCK99-baIAE1QW1?format=jpg&name=large'
+      ]
     },
     'Hương Giang': {
       name: 'Hương Giang',
@@ -256,7 +376,13 @@ const cityModels: Record<string, Record<string, ModelData>> = {
       tags: ['Vui vẻ', 'Năng động', 'Trẻ trung', 'Ngoài trời'],
       vip: true,
       measurements: '83 – 58 – 86',
-      hours: '6PM – 4AM'
+      hours: '6PM – 4AM',
+      gallery: [
+        'https://pbs.twimg.com/media/HCYOXwnaoAAT397?format=jpg&name=4096x4096',
+        'https://pbs.twimg.com/media/HCK99-YaoAAn-jQ?format=jpg&name=large',
+        'https://pbs.twimg.com/media/HCK99-baAAEOcgq?format=jpg&name=large',
+        'https://pbs.twimg.com/media/HCK99-baIAE1QW1?format=jpg&name=large'
+      ]
     },
     'Thảo Nguyên': {
       name: 'Thảo Nguyên',
@@ -271,7 +397,13 @@ const cityModels: Record<string, Record<string, ModelData>> = {
       tags: ['Nhẹ nhàng', 'Dịu dàng', 'Tình cảm'],
       vip: true,
       measurements: '84 – 59 – 87',
-      hours: '7PM – 5AM'
+      hours: '7PM – 5AM',
+      gallery: [
+        'https://pbs.twimg.com/media/HCYOmMYbkAABZzR?format=jpg&name=large',
+        'https://pbs.twimg.com/media/HCK99-YaoAAn-jQ?format=jpg&name=large',
+        'https://pbs.twimg.com/media/HCK99-baAAEOcgq?format=jpg&name=large',
+        'https://pbs.twimg.com/media/HCK99-baIAE1QW1?format=jpg&name=large'
+      ]
     }
   }
 };
@@ -515,19 +647,42 @@ export default function ModelProfile() {
       <section className="profile-hero">
         <div className="profile-gallery-wrap">
           <div className="profile-gallery-slides" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
-            {model?.gallery?.map((image, index) => (
-              <div key={index} className="profile-gallery-slide">
-                <img
-                  src={image}
-                  alt={`${model.name} - Photo ${index + 1}`}
-                  style={{
+            {model?.gallery && model.gallery.length > 0 ? (
+              model.gallery.map((image, index) => (
+                <div key={index} className="profile-gallery-slide">
+                  <img
+                    src={image}
+                    alt={`${model.name} - Photo ${index + 1}`}
+                    style={{
+                      width: '100%',
+                      height: '100%',
+                      objectFit: 'cover'
+                    }}
+                  />
+                </div>
+              ))
+            ) : (
+              [1, 2, 3, 4].map((num) => (
+                <div key={num} className="profile-gallery-slide">
+                  <div style={{
                     width: '100%',
                     height: '100%',
-                    objectFit: 'cover'
-                  }}
-                />
-              </div>
-            ))}
+                    background: `linear-gradient(135deg, #1c${String(num * 5).padStart(2, '0')}10, #0d0d0d)`,
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center'
+                  }}>
+                    <span style={{
+                      fontFamily: "'Playfair Display', serif",
+                      fontSize: '5rem',
+                      color: 'rgba(201, 169, 110, 0.12)'
+                    }}>
+                      {String(num).padStart(2, '0')}
+                    </span>
+                  </div>
+                </div>
+              ))
+            )}
           </div>
 
           <button className="profile-gallery-btn profile-gallery-prev" onClick={handlePrevSlide}>
